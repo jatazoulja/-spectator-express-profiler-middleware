@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm install --save-dev express-profiler-middleware`
+`npm install --save-dev spectator-profiler-middleware`
 
 ## Example
 
@@ -11,7 +11,7 @@ const {
   ModelBuilder,
   Middleware,
   HandlerBuilder,
-} = require("express-profiler");
+} = require("spectator-profiler-middleware");
 
 const mongoose = require("mongoose");
 
