@@ -1,5 +1,16 @@
 # Spec8r Profiler
 
+A simple profiler for Node [Express.js.](https://expressjs.com/)
+
+## DISCLAIMER
+
+This library is does not have unit test. This library is a compilation of some of this projects:
+
+- [express-profiler](https://github.com/Adpa18/express-profiler) by [Adpa18](https://github.com/Adpa18)
+- [os-utils](https://github.com/oscmejia/os-utils) by [oscmejia](https://github.com/oscmejia/)
+
+express-profiler
+
 ## Install
 
 `npm install --save-dev spectator-profiler-middleware`
@@ -8,25 +19,24 @@
 
 ```javascript
 const {
-  ModelBuilder,
-  Middleware,
-  HandlerBuilder,
+  SpecModelBuilder,
+  SpecMiddleware,
 } = require("spectator-profiler-middleware");
 
-const mongoose = require("mongoose");
-
-const model = ModelBuilder(mongoose, "mongodb://localhost:27017/profiler");
-const handler = HandlerBuilder(model);
-
 app.use(
-  Middleware((req, res, profile) => {
+  SpecMiddleware((req, res, profile) => {
     profile.user = req.user;
-    const request = new model(profile);
-    request.save();
-  })
+    SpecModelBuilder(profile);
+  }, true)
 );
-
-app.get("/profiler", handler);
-
-app.listen(3000, () => console.log("Example app listening on port 3000!"));
 ```
+
+## Main Functions
+
+| Function                  | Usage                                                                               | Remarks                                                          |
+| ------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| SpecMiddleware            | `(callback(req, res, profile), asyncEnable)`                                        | some data requires async callback set true to enable async data. |
+| SpecMiddleware.callback   | `(req, res, profile)`                                                               | profile returns JSON object of profile                           |
+| SpecModelBuilder `(json)` | optional: this will create a json file in root directory that contains all profile. |
+
+## Helpers
