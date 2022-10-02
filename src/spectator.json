@@ -1,0 +1,435 @@
+{
+  "request": {
+    "uri": "/mega",
+    "method": "GET",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.28.0",
+      "accept": "*/*",
+      "postman-token": "2a9fb31b-2b34-45eb-ae4b-78a9c2624223",
+      "host": "localhost:3000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "params": { "game": "mega" },
+    "query": {},
+    "body": {}
+  },
+  "response": {
+    "status": { "code": 200, "message": "OK" },
+    "body": {
+      "count": 155,
+      "lastResult": {
+        "game": "Megalotto 6/45",
+        "result": ["02", "18", "45", "01", "15", "30"],
+        "date": "10/20/2021",
+        "amount": "24,530,622.40",
+        "winners": "0"
+      },
+      "data": [
+        {
+          "number": 1,
+          "recuring": 2,
+          "accurancy": "13.55",
+          "count": 21,
+          "distance": [
+            1, 6, 8, 3, 6, 2, 7, 3, 1, 5, 14, 10, 6, 1, 5, 6, 5, 15, 29, 6, 14,
+            1
+          ],
+          "averageDistance": 7
+        },
+        {
+          "number": 2,
+          "recuring": 4,
+          "accurancy": "14.84",
+          "count": 23,
+          "distance": [
+            5, 22, 1, 3, 1, 21, 4, 3, 1, 15, 2, 3, 7, 5, 1, 17, 4, 5, 2, 13, 7,
+            4, 7, 1
+          ],
+          "averageDistance": 6.416666666666667
+        },
+        {
+          "number": 3,
+          "recuring": 1,
+          "accurancy": "12.26",
+          "count": 19,
+          "distance": [
+            1, 3, 3, 5, 31, 6, 3, 9, 4, 16, 8, 4, 7, 10, 15, 2, 14, 2, 1, 10
+          ],
+          "averageDistance": 7.7
+        },
+        {
+          "number": 4,
+          "recuring": 1,
+          "accurancy": "10.97",
+          "count": 17,
+          "distance": [
+            2, 14, 12, 7, 1, 8, 2, 4, 2, 2, 2, 11, 23, 6, 10, 31, 5, 12
+          ],
+          "averageDistance": 8.555555555555555
+        },
+        {
+          "number": 5,
+          "recuring": 4,
+          "accurancy": "16.13",
+          "count": 25,
+          "distance": [
+            5, 1, 5, 3, 2, 6, 6, 17, 10, 1, 10, 5, 7, 1, 5, 24, 4, 2, 1, 13, 3,
+            9, 8, 4, 2
+          ],
+          "averageDistance": 6.16
+        },
+        {
+          "number": 6,
+          "recuring": 2,
+          "accurancy": "12.90",
+          "count": 20,
+          "distance": [
+            12, 8, 3, 3, 3, 13, 2, 6, 35, 1, 8, 6, 3, 2, 2, 6, 20, 9, 4, 1, 7
+          ],
+          "averageDistance": 7.333333333333333
+        },
+        {
+          "number": 7,
+          "recuring": 4,
+          "accurancy": "12.90",
+          "count": 20,
+          "distance": [
+            3, 15, 12, 1, 1, 6, 2, 10, 10, 9, 4, 3, 12, 14, 1, 3, 2, 35, 1, 3, 7
+          ],
+          "averageDistance": 7.333333333333333
+        },
+        {
+          "number": 8,
+          "recuring": 6,
+          "accurancy": "13.55",
+          "count": 21,
+          "distance": [
+            3, 11, 5, 1, 7, 1, 7, 18, 9, 25, 5, 7, 4, 12, 1, 1, 6, 1, 1, 2, 16,
+            11
+          ],
+          "averageDistance": 7
+        },
+        {
+          "number": 9,
+          "recuring": 4,
+          "accurancy": "13.55",
+          "count": 21,
+          "distance": [
+            0, 3, 8, 9, 1, 13, 2, 11, 28, 2, 10, 1, 10, 7, 1, 7, 2, 6, 5, 1, 18,
+            9
+          ],
+          "averageDistance": 7
+        },
+        {
+          "number": 10,
+          "recuring": 6,
+          "accurancy": "14.84",
+          "count": 23,
+          "distance": [
+            1, 1, 7, 10, 2, 5, 14, 24, 1, 5, 7, 16, 13, 8, 1, 3, 1, 6, 2, 8, 1,
+            8, 1, 9
+          ],
+          "averageDistance": 6.416666666666667
+        },
+        {
+          "number": 12,
+          "recuring": 4,
+          "accurancy": "13.55",
+          "count": 21,
+          "distance": [
+            0, 1, 8, 12, 8, 3, 2, 6, 2, 7, 8, 6, 4, 18, 10, 4, 1, 8, 1, 1, 19,
+            25
+          ],
+          "averageDistance": 7
+        },
+        {
+          "number": 13,
+          "recuring": 2,
+          "accurancy": "11.61",
+          "count": 18,
+          "distance": [
+            18, 21, 5, 5, 2, 1, 1, 7, 14, 9, 6, 7, 18, 11, 6, 6, 8, 6, 3
+          ],
+          "averageDistance": 8.105263157894736
+        },
+        {
+          "number": 14,
+          "recuring": 1,
+          "accurancy": "14.84",
+          "count": 23,
+          "distance": [
+            5, 7, 3, 4, 2, 14, 6, 8, 1, 18, 6, 8, 4, 2, 3, 7, 7, 2, 5, 18, 2, 3,
+            9, 10
+          ],
+          "averageDistance": 6.416666666666667
+        },
+        {
+          "number": 15,
+          "recuring": 3,
+          "accurancy": "12.26",
+          "count": 19,
+          "distance": [
+            5, 7, 1, 5, 4, 4, 3, 29, 11, 5, 3, 1, 17, 10, 2, 2, 13, 1, 30, 1
+          ],
+          "averageDistance": 7.7
+        },
+        {
+          "number": 16,
+          "recuring": 2,
+          "accurancy": "14.19",
+          "count": 22,
+          "distance": [
+            8, 2, 7, 15, 14, 2, 9, 7, 6, 1, 8, 3, 14, 3, 4, 2, 3, 3, 8, 9, 5, 1,
+            20
+          ],
+          "averageDistance": 6.695652173913044
+        },
+        {
+          "number": 17,
+          "recuring": 1,
+          "accurancy": "12.90",
+          "count": 20,
+          "distance": [
+            2, 6, 3, 13, 9, 2, 6, 5, 6, 4, 1, 17, 5, 5, 8, 3, 7, 15, 18, 3, 16
+          ],
+          "averageDistance": 7.333333333333333
+        },
+        {
+          "number": 18,
+          "recuring": 3,
+          "accurancy": "11.61",
+          "count": 18,
+          "distance": [
+            5, 10, 4, 15, 5, 5, 21, 14, 1, 16, 1, 7, 5, 27, 2, 2, 1, 12, 1
+          ],
+          "averageDistance": 8.105263157894736
+        },
+        {
+          "number": 19,
+          "recuring": 1,
+          "accurancy": "9.68",
+          "count": 15,
+          "distance": [0, 17, 13, 4, 10, 11, 4, 53, 6, 6, 7, 6, 4, 4, 1, 8],
+          "averageDistance": 9.625
+        },
+        {
+          "number": 20,
+          "recuring": 1,
+          "accurancy": "10.97",
+          "count": 17,
+          "distance": [
+            8, 5, 3, 17, 4, 10, 33, 2, 4, 3, 12, 6, 16, 3, 5, 8, 1, 14
+          ],
+          "averageDistance": 8.555555555555555
+        },
+        {
+          "number": 22,
+          "recuring": 1,
+          "accurancy": "11.61",
+          "count": 18,
+          "distance": [
+            2, 7, 9, 4, 5, 7, 11, 10, 13, 5, 12, 16, 12, 1, 3, 13, 10, 6, 8
+          ],
+          "averageDistance": 8.105263157894736
+        },
+        {
+          "number": 23,
+          "recuring": 6,
+          "accurancy": "14.19",
+          "count": 22,
+          "distance": [
+            4, 3, 32, 2, 17, 1, 4, 2, 2, 14, 1, 1, 7, 1, 1, 10, 18, 2, 1, 5, 5,
+            18, 3
+          ],
+          "averageDistance": 6.695652173913044
+        },
+        {
+          "number": 24,
+          "recuring": 4,
+          "accurancy": "13.55",
+          "count": 21,
+          "distance": [
+            0, 1, 1, 7, 14, 4, 12, 15, 9, 9, 7, 7, 16, 14, 4, 1, 1, 6, 14, 8, 2,
+            2
+          ],
+          "averageDistance": 7
+        },
+        {
+          "number": 25,
+          "recuring": 4,
+          "accurancy": "14.19",
+          "count": 22,
+          "distance": [
+            23, 2, 4, 3, 5, 5, 13, 3, 12, 19, 4, 3, 2, 2, 4, 1, 3, 2, 1, 38, 1,
+            1, 3
+          ],
+          "averageDistance": 6.695652173913044
+        },
+        {
+          "number": 27,
+          "recuring": 4,
+          "accurancy": "12.90",
+          "count": 20,
+          "distance": [
+            4, 9, 1, 11, 1, 4, 1, 7, 3, 6, 10, 23, 5, 1, 2, 3, 3, 5, 10, 45
+          ],
+          "averageDistance": 7.7
+        },
+        {
+          "number": 28,
+          "recuring": 2,
+          "accurancy": "9.68",
+          "count": 15,
+          "distance": [16, 1, 3, 11, 30, 14, 1, 9, 13, 5, 21, 2, 7, 9, 10, 2],
+          "averageDistance": 9.625
+        },
+        {
+          "number": 29,
+          "recuring": 3,
+          "accurancy": "14.84",
+          "count": 23,
+          "distance": [
+            0, 9, 20, 11, 4, 2, 1, 3, 1, 2, 5, 13, 19, 4, 3, 13, 19, 7, 2, 7, 3,
+            4, 2
+          ],
+          "averageDistance": 6.695652173913044
+        },
+        {
+          "number": 31,
+          "recuring": 1,
+          "accurancy": "12.90",
+          "count": 20,
+          "distance": [
+            8, 2, 5, 7, 14, 9, 14, 12, 10, 12, 4, 5, 1, 10, 2, 11, 6, 2, 7, 9, 4
+          ],
+          "averageDistance": 7.333333333333333
+        },
+        {
+          "number": 32,
+          "recuring": 3,
+          "accurancy": "14.84",
+          "count": 23,
+          "distance": [
+            8, 11, 21, 8, 3, 5, 6, 15, 4, 2, 2, 1, 4, 4, 1, 3, 6, 5, 5, 3, 4, 5,
+            1, 27
+          ],
+          "averageDistance": 6.416666666666667
+        },
+        {
+          "number": 33,
+          "recuring": 2,
+          "accurancy": "14.84",
+          "count": 23,
+          "distance": [
+            16, 4, 2, 2, 3, 2, 2, 6, 6, 4, 6, 10, 5, 12, 11, 1, 1, 7, 2, 4, 8,
+            7, 33
+          ],
+          "averageDistance": 6.695652173913044
+        },
+        {
+          "number": 34,
+          "recuring": 2,
+          "accurancy": "12.90",
+          "count": 20,
+          "distance": [
+            6, 14, 3, 2, 14, 21, 5, 6, 2, 7, 3, 28, 5, 1, 3, 7, 6, 3, 10, 1, 7
+          ],
+          "averageDistance": 7.333333333333333
+        },
+        {
+          "number": 35,
+          "recuring": 1,
+          "accurancy": "11.61",
+          "count": 18,
+          "distance": [
+            5, 31, 4, 3, 2, 6, 9, 1, 2, 2, 24, 9, 3, 29, 5, 8, 4, 3, 4
+          ],
+          "averageDistance": 8.105263157894736
+        },
+        {
+          "number": 36,
+          "recuring": 0,
+          "accurancy": "9.68",
+          "count": 15,
+          "distance": [2, 39, 4, 4, 6, 6, 2, 4, 2, 4, 2, 15, 20, 6, 12, 26],
+          "averageDistance": 9.625
+        },
+        {
+          "number": 37,
+          "recuring": 4,
+          "accurancy": "16.13",
+          "count": 25,
+          "distance": [
+            0, 10, 1, 1, 3, 9, 1, 8, 9, 11, 6, 3, 4, 8, 10, 11, 9, 3, 11, 7, 3,
+            4, 9, 10, 3
+          ],
+          "averageDistance": 6.16
+        },
+        {
+          "number": 39,
+          "recuring": 4,
+          "accurancy": "14.19",
+          "count": 22,
+          "distance": [
+            17, 1, 5, 3, 4, 2, 11, 11, 2, 8, 4, 1, 3, 5, 6, 9, 5, 2, 1, 37, 11,
+            1, 5
+          ],
+          "averageDistance": 6.695652173913044
+        },
+        {
+          "number": 40,
+          "recuring": 0,
+          "accurancy": "10.97",
+          "count": 17,
+          "distance": [
+            6, 8, 23, 11, 4, 6, 4, 20, 5, 14, 3, 8, 4, 18, 5, 2, 11, 2
+          ],
+          "averageDistance": 8.555555555555555
+        },
+        {
+          "number": 41,
+          "recuring": 2,
+          "accurancy": "14.19",
+          "count": 22,
+          "distance": [
+            3, 13, 5, 17, 4, 17, 5, 2, 6, 3, 8, 14, 21, 1, 3, 3, 6, 6, 5, 5, 1,
+            2, 4
+          ],
+          "averageDistance": 6.695652173913044
+        },
+        {
+          "number": 45,
+          "recuring": 1,
+          "accurancy": "12.90",
+          "count": 20,
+          "distance": [
+            3, 3, 1, 3, 5, 16, 5, 10, 14, 8, 6, 4, 4, 5, 9, 16, 18, 4, 9, 10, 1
+          ],
+          "averageDistance": 7.333333333333333
+        }
+      ]
+    }
+  },
+  "date": 1664678563023,
+  "elapsedTime": 35,
+  "logs": [],
+  "OS": {
+    "cpuCount": 12,
+    "sysUptime": 315254,
+    "processUptime": 7.1737543,
+    "freemem": 18744.95703125,
+    "totalmem": 32718.953125,
+    "freememPercentage": 0.5729082149919795,
+    "harddrive": {
+      "total": 237852,
+      "free": 44789,
+      "used": 193063,
+      "percentage": "82%"
+    },
+    "allLoadavg": "0.0000,0.0000,0.0000",
+    "loadavg": 0,
+    "cpuFree": 0.9387534326370974,
+    "cpuUsage": 0.15864113452447726
+  }
+}

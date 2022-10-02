@@ -1,5 +1,7 @@
 module.exports = {
-    Middleware: require('./middleware'),
-    ModelBuilder: require('./model'),
-    HandlerBuilder: require('./handler')
+  SpecMiddleware: require("./middleware"),
+  SpecModelBuilder: require("./model"),
+  SpecHandlerBuilder: require("./handler"),
+  OSUtils: require("./os-utils"),
+  SpecHelpers: require("./os-utils"),
 };

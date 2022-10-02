@@ -1,10 +1,9 @@
 {
-  "name": "express-profiler-middleware",
+  "name": "spectator-profiler-middleware",
   "version": "0.0.1",
-  "description": "Profiler for express API",
+  "description": "Forked from express-profiler-middleware by Adpa18 Profiler for express API",
   "main": "src/index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Adpa18/express-profiler.git"
