@@ -3,5 +3,5 @@ module.exports = {
   SpecModelBuilder: require("./model"),
   SpecHandlerBuilder: require("./handler"),
   OSUtils: require("./os-utils"),
-  SpecHelpers: require("./os-utils"),
+  SpecHelpers: require("./helpers"),
 };

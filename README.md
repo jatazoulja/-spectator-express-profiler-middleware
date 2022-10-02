@@ -40,3 +40,18 @@ app.use(
 | SpecModelBuilder `(json)` | optional: this will create a json file in root directory that contains all profile. |
 
 ## Helpers
+
+\*\* for os-utils check [os-utils](https://github.com/oscmejia/os-utils) by [oscmejia](https://github.com/oscmejia/)
+for my modification:
+| OSUtils.cpuCount(), | |
+| OSUtils.sysUptime(), | |
+| OSUtils.processUptime(), | |
+| OSUtils.freemem(), | |
+| OSUtils.totalmem(), | | |
+| OSUtils.freememPercentage(), | |
+| OSUtils.harddrive() : "N/A", | |
+| OSUtils.allLoadavg(), | |
+| OSUtils.loadavg(), | |
+| OSUtils.cpuFree((i) => i) : "N/A", | |
+| OSUtils.cpuUsage((i) => i) : "N/A", | |
+| SpecHelpers.getStackTrace(), | |
