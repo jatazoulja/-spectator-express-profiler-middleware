@@ -1,5 +1,5 @@
 {
-  "name": "@spectator/express-profiler-middleware",
+  "name": "@jatazoulja/express-profiler-middleware",
   "version": "0.0.1",
   "description": "express middleware for spectator profiler project",
   "main": "src/index.js",
