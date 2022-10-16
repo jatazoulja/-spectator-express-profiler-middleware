@@ -1,14 +1,14 @@
 {
-  "name": "spectator-profiler-middleware",
+  "name": "@spectator/express-profiler-middleware",
   "version": "0.0.1",
-  "description": "Forked from express-profiler-middleware by Adpa18 Profiler for express API",
+  "description": "express middleware for spectator profiler project",
   "main": "src/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Adpa18/express-profiler.git"
   },
-  "author": "WERY Adrien",
+  "author": "jatazoulja",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Adpa18/express-profiler/issues"
